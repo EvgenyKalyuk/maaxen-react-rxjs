@@ -1,0 +1,71 @@
+$step: 5;
+
+@for $i from 1 through 5 {
+  .m-t-#{$i} {
+    margin-top: #{$i * $step}px;
+  }
+
+  .m-b-#{$i} {
+    margin-bottom: #{$i * $step}px;
+  }
+
+  .m-l-#{$i} {
+    margin-left: #{$i * $step}px;
+  }
+
+  .m-r-#{$i} {
+    margin-right: #{$i * $step}px;
+  }
+
+  .m-h-#{$i} {
+    margin-right: #{$i * $step}px;
+    margin-left: #{$i * $step}px;
+  }
+
+  .m-v-#{$i} {
+    margin-top: #{$i * $step}px;
+    margin-bottom: #{$i * $step}px;
+  }
+
+  .p-t-#{$i} {
+    padding-top: #{$i * $step}px;
+  }
+
+  .p-b-#{$i} {
+    padding-bottom: #{$i * $step}px;
+  }
+
+  .p-l-#{$i} {
+    padding-left: #{$i * $step}px;
+  }
+
+  .p-r-#{$i} {
+    padding-right: #{$i * $step}px;
+  }
+
+  .p-h-#{$i} {
+    padding-left: #{$i * $step}px;
+    padding-right: #{$i * $step}px;
+  }
+
+  .p-v-#{$i} {
+    padding-top: #{$i * $step}px;
+    padding-bottom: #{$i * $step}px;
+  }
+
+  .p-#{$i} {
+    padding: #{$i * $step}px;
+  }
+
+  .m-#{$i} {
+    margin: #{$i * $step}px;
+  }
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.m-0 {
+  margin: 0;
+}

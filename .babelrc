@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "modules": false,
+      "loose": true,
+      "useBuiltIns": "entry",
+      "corejs": 3
+    }],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    ["react-css-modules", {
+      "generateScopedName": "[local]_[hash:base64:5]",
+      "filetypes": {
+        ".scss": {
+          "syntax": "postcss-scss"
+        }
+      }
+    }]
+  ]
+}

@@ -1,0 +1,6 @@
+@import "./indent";
+
+html, body {
+  @extend .p-0;
+  @extend .m-0;
+}
